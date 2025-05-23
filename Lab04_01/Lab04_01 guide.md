@@ -103,7 +103,7 @@ npm -v
 
    ```bash
    # ZIP으로 묶어 Cloud Shell로 업로드 준비
-   Compress-Archive -Path .\* -DestinationPath .\lab05.zip
+   Compress-Archive -Path .\* -DestinationPath .\lab04_01.zip
    ```
 ## 작업 2: Container Registry 리소스 생성
 
