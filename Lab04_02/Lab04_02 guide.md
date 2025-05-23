@@ -73,7 +73,7 @@
 
    ```dockerfile
    # Base image with Node.js and Playwright dependencies
-   FROM mcr.microsoft.com/playwright:v1.42.1-jammy
+   FROM mcr.microsoft.com/playwright:v1.50.0-jammy
 
    # Set working directory
    WORKDIR /app
@@ -110,6 +110,9 @@
    ```bash
    az acr list --resource-group KT-AppServiceHandsOn --output table
    ```
+1. KT-AppServiceHandsOn 리소스 그룹(Resource Group)에서 이전 실습에서 생성한 컨테이너 레지스트리를 선택합니다.
+2. 액세스 키(Access keys) 블레이드로 이동합니다.
+3. 관리 사용자(Admin user) 섹션의 스위치를 전환하여 활성화합니다.
    
 4.`az acr login` 명령으로 **Azure Container Registry (ACR)**에 도커 클라이언트를 인증시킵니다.
 

@@ -220,7 +220,7 @@ echo $acrName
 ### Task 1: Container Registry 관리자 사용자 활성화
 1. KT-AppServiceHandsOn 리소스 그룹(Resource Group)에서 이전 실습에서 생성한 컨테이너 레지스트리를 선택합니다.
 2. 액세스 키(Access keys) 블레이드로 이동합니다.
-3. 사용 관리자(Admin user) 섹션의 스위치를 전환하여 활성화합니다.
+3. 관리 사용자(Admin user) 섹션의 스위치를 전환하여 활성화합니다.
 
 ### Task 2: 자동으로 Container Instance에 컨테이너 배포
 1. Container Registry 블레이드의 서비스(Services) 섹션에서 리포지토리(Repositories)를 선택합니다.
