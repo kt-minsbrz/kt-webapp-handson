@@ -100,7 +100,7 @@
 
 ## 작업 2: Container Registry 리소스 생성
 
-1. Cloud Shell 또는 로컬 터미널에서 Azure CLI를 실행합니다.
+1. 로컬 터미널에서 Azure CLI를 실행합니다.
 2. 다음 명령어를 사용하여 Container Registry를 생성합니다. (리소스 그룹 이름은 “KT-AppServiceHandsOn”, 등록 이름은 고유해야 하며, 비용 절감을 위해 sku는 Basic을 사용합니다.)
 
    ```bash
