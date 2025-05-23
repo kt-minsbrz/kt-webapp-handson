@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM mcr.microsoft.com/playwright:v1.50.0-jammy
+FROM mcr.microsoft.com/playwright:v1.52.0-jammy
 
 # 작업 디렉터리 설정
 WORKDIR /app
